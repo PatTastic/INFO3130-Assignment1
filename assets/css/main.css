@@ -92,7 +92,7 @@ body{
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     webkit-tap-highlight-color: #fed136;
-	width:auto;
+    width:auto;
 }
 
 /* Logo */
@@ -117,7 +117,7 @@ body{
     position: relative;
 }
 .logo .initials{
-    left: 45px;
+    left: 50px;
 }
 .logo .full{
     left: 120px;

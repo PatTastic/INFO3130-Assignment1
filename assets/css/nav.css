@@ -93,7 +93,7 @@
     background-color: #fecf2d !important;
     color: #5d5d5d !important;
     box-shadow: 5px 5px 0px 2px #7FB800;
-
+}
 #navigation::after {
     height: 2px;
     background-color: #7FB800;
