@@ -1,0 +1,96 @@
+<div id="tag-cloud"></div>
+<div id="carousel-container">
+    <div id="carousel"></div>
+</div>
+<div id="proficiency">
+    <h2>Skill Levels</h2>
+    <div id="lvl1" class="pro-level">
+        <h1 data-toggle="tooltip" data-placement="top" title="I can conqure any task given to me">Tier 1 Knowledge</h1>
+        <p>JavaScript</p>
+        <p>TypeScript</p>
+        <p>Angular</p>
+        <p>REST API</p>
+        <p>GIT</p>
+        <p>CSS3</p>
+        <p>HTML5</p>
+    </div>
+    <hr />
+    <div id="lvl2" class="pro-level">
+        <h1 data-toggle="tooltip" data-placement="top" title="I have a large amount of varied experience in each skill">Tier 2 Knowledge</h1>
+        <p>LeafletJS</p>
+        <p>AngularJS</p>
+        <p>ASP. NET</p>
+        <p>AODA Standards</p>
+        <p>Bootstrap</p>
+        <p>GIS</p>
+        <p>NodeJS</p>
+        <p>Cordova</p>
+    </div>
+    <hr />
+    <div id="lvl3" class="pro-level">
+        <h1 data-toggle="tooltip" data-placement="top" title="I have used these for specific tasks">Tier 3 Knowledge</h1>
+        <p>C#</p>
+        <p>MySQL</p>
+        <p>Java</p>
+        <p>Socket.IO</p>
+        <p>Wordpress</p>
+        <p>PhoneGap</p>
+    </div>
+    <hr />
+    <div id="lvl4" class="pro-level">
+        <h1 data-toggle="tooltip" data-placement="top" title="I can write basic code using these skills">Tier 4 Knowledge</h1>
+        <p>C++</p>
+        <p>Visual Basic</p>
+        <p>MariaDB</p>
+    </div>
+    <p id="dont-worry">Am I missing a skill you need? Don't worry, I'm a fast learner.</p>
+</div>
+<div id="part2">
+    <div id="me">
+        <img src="assets/img/me.jpg"></img>
+        <div id="eye-container">
+              <div class="eye"></div>
+              <div class="eye"></div>
+        </div>
+    </div>
+    <div id="info">
+        <h2>Oh Hello!</h2>
+        <h3>Didn't see you there</h3>
+        <h4>I'm Pat Wilken,</h4>
+        <p>a web developer based near Waterloo Ontario, Canada. I enjoy
+            <a data-toggle="modal" data-target="#music-modal">listening to music</a>
+            ,
+            <span class="toggleKitty">playing with my cat</span>,
+            and expanding my knowledge of different programming languages.
+        </p>
+        <p>I'd like to do at least one of those with you.</p>
+        <a href="#contact">Let's set it up!</a>
+        <div id="kitty" class="toggleKitty">
+          <i class="fa fa-times"></i>\
+        </div>
+    </div>
+</div>
+<script>About.Load();</script>
+
+<!-- Music Modal Start -->
+<div id="music-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>Current favourite artists:</h3>
+                <div id="artist-cloud" class="margin-top-extra margin-bottom-extra"></div>
+                <div id="song-container"></div>
+                <div id="lastfm">
+                    <h5>Add me on</h5>
+                    <a href="https://www.last.fm/user/crypticecho" target="_blank">
+                        <img src="/assets/img/lastfm.gif" />
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-pat btn-center" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

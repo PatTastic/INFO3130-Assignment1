@@ -1,0 +1,74 @@
+html, body, #page-container, #home, .container, .intro-text{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-full ul li a,
+.navbar-mobile ul li a{
+    border: none;
+}
+.navbar-mobile ul li a[href='#home']{
+    border: 2px solid #fecf2d;
+}
+
+.logo-splash{
+    animation-name: woaaaAAAaaa;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform: scale(1,1);
+    transition: all 0.3s;
+}
+.logo-splash *{
+    user-select: none;
+}
+
+#intro{
+    position: fixed;
+    top: -999px;
+    left: -999px;
+    opacity: 0;
+    content: 'Just for SEO, ignore this element';
+}
+
+#home .container{
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+#home .intro-heading{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 405px;
+    height: 105px;
+    margin: 0;
+    margin-left: -13px;
+}
+
+canvas{
+    display: block;
+}
+
+footer{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+@keyframes woaaaAAAaaa{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(0.8,0.8);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}

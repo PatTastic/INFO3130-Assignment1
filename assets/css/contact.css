@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar-full ul li a,
+.navbar-mobile ul li a{
+    border: none;
+}
+.navbar-full ul li a[href='#contact'],
+.navbar-mobile ul li a[href='#contact']{
+    border: 2px solid #fecf2d;
+}
+
+#holder {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+.node {
+    cursor: pointer;
+    stroke: #3182bd;
+    stroke-width: 1.5px;
+}
+.link {
+    fill: none;
+    stroke: #fecf2d;
+    stroke-width: 2px;
+}

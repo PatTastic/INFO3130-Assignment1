@@ -1,0 +1,118 @@
+/* temp main */
+.btn-center{
+    display: block;
+    margin: auto;
+}
+.btn-pat{
+    color: #646464;
+    background-color: #fecf2d;
+    border: 3px solid #7FB800;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: #7FB800;
+    border: 3px solid #fecf2d;
+    font-weight: bold;
+    color: black;
+}
+
+#navigation{
+    height: 70px;
+}
+#navigation button{
+    top: 10px;
+    right: 20px;
+    width: 44px;
+    height: 34px;
+    color: white;
+}
+
+.navbar{
+    position: fixed;
+    top: -1px;
+    background-color: #222222;
+    width: 100%;
+}
+.navbar-full{
+    height: 70px;
+}
+.navbar-full .navbar-nav{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.navbar-full .navbar-nav li{
+    clear: both;
+    float: none;
+    display: inline-block;
+}
+
+#mobile-menu-close{
+    right: 5px !important;
+    position: absolute;
+    z-index: 10;
+}
+#mobile-menu-close i{
+    margin: -10px;
+    display: block;
+}
+.navbar-mobile{
+    opacity: 0;
+    left: 0;
+    height: 0px;
+    background-color: #222222;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    transition: all 0.5s;
+}
+.navbar-mobile ul{
+    top: calc(50% - 180px);
+    position: relative;
+}
+.navbar-mobile ul li{
+    display: block;
+    padding: 20px;
+}
+.navbar-mobile ul li a,
+.navbar-full ul li a{
+    letter-spacing: 1px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+    border-bottom-right-radius: 10px;
+}
+.navbar-mobile ul li a{
+    width: 50%;
+}
+.navbar-mobile ul li a:hover,
+.navbar-full ul li a:hover{
+    text-decoration: none;
+    background-color: #fecf2d !important;
+    color: #5d5d5d !important;
+    box-shadow: 5px 5px 0px 2px #7FB800;
+
+#navigation::after {
+    height: 2px;
+    background-color: #7FB800;
+    width: 100%;
+    top: 70px;
+    position: absolute;
+    z-index: -1;
+}
+#border{
+    height: 2px;
+    width: 80%;
+    background-color: #fecf2d;
+    top: 70px;
+    position: absolute;
+    box-shadow: 30px 0 7px black;
+}
+
+@media (min-width: 768px){
+    .navbar-nav.navbar-right:last-child{
+        margin-right: 0;
+    }
+}
